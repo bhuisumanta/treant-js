@@ -2165,7 +2165,7 @@
         TreeStore.destroy( this.tree.id );
     };
 
-    /* expose constructor globally */
-    window.Treant = Treant;
+    /* expose constructor globaly */
+    exports.Treant = Treant;
 
-})();
+})( this.hasOwnProperty('window') ? window: module.exports );
