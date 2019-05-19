@@ -17,6 +17,8 @@
  * Dave Goodchild, https://github.com/dlgoodchild
  */
 
+const Raphael = require('raphael');
+
 ;( function(exports) {
     // Polyfill for IE to use startsWith
     if (!String.prototype.startsWith) {

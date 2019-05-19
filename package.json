@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/salomontiago/treant-js/issues"
   },
-  "homepage": "https://github.com/salomontiago/treant-js#readme"
+  "homepage": "https://github.com/salomontiago/treant-js#readme",
+  "dependencies": {
+    "raphael": "^2.2.8"
+  }
 }
